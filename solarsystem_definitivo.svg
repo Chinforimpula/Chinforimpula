@@ -1,12 +1,14 @@
-<svg viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg" width="100%">
+<svg viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" width="100%">
   <style>
     .star     { animation: twinkle var(--d,2s) ease-in-out infinite; }
-    .mercury  { animation: orbit 4s  linear infinite; transform-origin:340px 100px; }
-    .venus    { animation: orbit 7s  linear infinite; transform-origin:340px 100px; }
-    .earth    { animation: orbit 12s linear infinite; transform-origin:340px 100px; }
-    .mars     { animation: orbit 20s linear infinite; transform-origin:340px 100px; }
-    .jupiter  { animation: orbit 35s linear infinite; transform-origin:340px 100px; }
-    .saturn   { animation: orbit 55s linear infinite; transform-origin:340px 100px; }
+    .mercury  { animation: orbit 4s   linear infinite; transform-origin:340px 110px; }
+    .venus    { animation: orbit 7s   linear infinite; transform-origin:340px 110px; }
+    .earth    { animation: orbit 12s  linear infinite; transform-origin:340px 110px; }
+    .mars     { animation: orbit 20s  linear infinite; transform-origin:340px 110px; }
+    .jupiter  { animation: orbit 35s  linear infinite; transform-origin:340px 110px; }
+    .saturn   { animation: orbit 55s  linear infinite; transform-origin:340px 110px; }
+    .uranus   { animation: orbit 80s  linear infinite; transform-origin:340px 110px; }
+    .neptune  { animation: orbit 110s linear infinite; transform-origin:340px 110px; }
     .sun-glow { animation: pulse 3s ease-in-out infinite; }
 
     .txt-a { font-family:'Courier New',monospace; fill:#00D9FF; font-size:12px; font-weight:bold; }
@@ -99,62 +101,83 @@
       <stop offset="50%"  stop-color="#cc8844"/>
       <stop offset="100%" stop-color="#884422"/>
     </radialGradient>
+    <radialGradient id="uranusG" cx="40%" cy="35%" r="60%">
+      <stop offset="0%"   stop-color="#ccffff"/>
+      <stop offset="50%"  stop-color="#44bbcc"/>
+      <stop offset="100%" stop-color="#226677"/>
+    </radialGradient>
+    <radialGradient id="neptuneG" cx="40%" cy="35%" r="60%">
+      <stop offset="0%"   stop-color="#aabbff"/>
+      <stop offset="50%"  stop-color="#2244cc"/>
+      <stop offset="100%" stop-color="#112266"/>
+    </radialGradient>
   </defs>
 
-  <rect width="680" height="200" fill="#000008"/>
+  <rect width="680" height="220" fill="#000008"/>
 
   <circle cx="40"  cy="18"  r="0.9" fill="white" class="star" style="--d:2.1s"/>
   <circle cx="115" cy="48"  r="0.7" fill="white" class="star" style="--d:3.3s"/>
   <circle cx="195" cy="14"  r="1.1" fill="white" class="star" style="--d:1.8s"/>
   <circle cx="75"  cy="82"  r="0.8" fill="white" class="star" style="--d:2.7s"/>
-  <circle cx="160" cy="165" r="0.9" fill="white" class="star" style="--d:3.1s"/>
-  <circle cx="28"  cy="145" r="0.7" fill="white" class="star" style="--d:2.4s"/>
+  <circle cx="160" cy="185" r="0.9" fill="white" class="star" style="--d:3.1s"/>
+  <circle cx="28"  cy="155" r="0.7" fill="white" class="star" style="--d:2.4s"/>
   <circle cx="585" cy="22"  r="1.0" fill="white" class="star" style="--d:1.9s"/>
   <circle cx="635" cy="75"  r="0.8" fill="white" class="star" style="--d:3.5s"/>
-  <circle cx="555" cy="155" r="0.9" fill="white" class="star" style="--d:2.2s"/>
-  <circle cx="608" cy="175" r="0.7" fill="white" class="star" style="--d:2.9s"/>
+  <circle cx="555" cy="175" r="0.9" fill="white" class="star" style="--d:2.2s"/>
+  <circle cx="608" cy="195" r="0.7" fill="white" class="star" style="--d:2.9s"/>
   <circle cx="495" cy="28"  r="1.1" fill="white" class="star" style="--d:1.6s"/>
-  <circle cx="652" cy="118" r="0.7" fill="white" class="star" style="--d:1.7s"/>
+  <circle cx="652" cy="130" r="0.7" fill="white" class="star" style="--d:1.7s"/>
   <circle cx="14"  cy="58"  r="1.0" fill="white" class="star" style="--d:3.0s"/>
-  <circle cx="88"  cy="175" r="0.9" fill="white" class="star" style="--d:3.4s"/>
+  <circle cx="88"  cy="195" r="0.9" fill="white" class="star" style="--d:3.4s"/>
   <circle cx="318" cy="8"   r="0.8" fill="white" class="star" style="--d:2.6s"/>
   <circle cx="530" cy="10"  r="0.7" fill="white" class="star" style="--d:2.8s"/>
+  <circle cx="250" cy="205" r="0.8" fill="white" class="star" style="--d:2.0s"/>
+  <circle cx="450" cy="210" r="0.7" fill="white" class="star" style="--d:3.2s"/>
 
-  <circle cx="340" cy="100" r="22"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.2"/>
-  <circle cx="340" cy="100" r="34"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.2"/>
-  <circle cx="340" cy="100" r="48"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.2"/>
-  <circle cx="340" cy="100" r="63"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.2"/>
-  <circle cx="340" cy="100" r="80"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.15"/>
-  <circle cx="340" cy="100" r="96"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.1"/>
+  <circle cx="340" cy="110" r="22"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.2"/>
+  <circle cx="340" cy="110" r="34"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.2"/>
+  <circle cx="340" cy="110" r="48"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.2"/>
+  <circle cx="340" cy="110" r="62"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.2"/>
+  <circle cx="340" cy="110" r="78"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.15"/>
+  <circle cx="340" cy="110" r="93"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.12"/>
+  <circle cx="340" cy="110" r="107" fill="none" stroke="#fff" stroke-width="0.3" opacity="0.1"/>
+  <circle cx="340" cy="110" r="120" fill="none" stroke="#fff" stroke-width="0.3" opacity="0.08"/>
 
-  <circle cx="340" cy="100" r="18" fill="#ff6600" class="sun-glow" opacity="0.3"/>
-  <circle cx="340" cy="100" r="14" fill="#ff9900" class="sun-glow" opacity="0.5"/>
-  <circle cx="340" cy="100" r="12" fill="url(#sunG)"/>
+  <circle cx="340" cy="110" r="18" fill="#ff6600" class="sun-glow" opacity="0.3"/>
+  <circle cx="340" cy="110" r="14" fill="#ff9900" class="sun-glow" opacity="0.5"/>
+  <circle cx="340" cy="110" r="12" fill="url(#sunG)"/>
 
-  <g class="mercury"><circle cx="362" cy="100" r="2.2" fill="#aaaaaa"/></g>
-  <g class="venus"  ><circle cx="374" cy="100" r="3.2" fill="#ffcc88"/></g>
+  <g class="mercury"><circle cx="362" cy="110" r="2.2" fill="#aaaaaa"/></g>
+  <g class="venus"  ><circle cx="374" cy="110" r="3.2" fill="#ffcc88"/></g>
   <g class="earth"  >
-    <circle cx="388" cy="100" r="3.8" fill="url(#earthG)"/>
-    <g style="animation:orbit 1.5s linear infinite;transform-origin:388px 100px">
-      <circle cx="395" cy="100" r="1.2" fill="#cccccc"/>
+    <circle cx="388" cy="110" r="3.8" fill="url(#earthG)"/>
+    <g style="animation:orbit 1.5s linear infinite;transform-origin:388px 110px">
+      <circle cx="395" cy="110" r="1.2" fill="#cccccc"/>
     </g>
   </g>
-  <g class="mars"   ><circle cx="403" cy="100" r="2.8" fill="url(#marsG)"/></g>
+  <g class="mars"   ><circle cx="402" cy="110" r="2.8" fill="url(#marsG)"/></g>
   <g class="jupiter">
-    <circle cx="420" cy="100" r="6.5" fill="url(#jupG)"/>
-    <ellipse cx="420" cy="98"  rx="6.5" ry="1.2" fill="none" stroke="#aa6633" stroke-width="1"   opacity="0.5"/>
-    <ellipse cx="420" cy="102" rx="6.5" ry="1.2" fill="none" stroke="#aa6633" stroke-width="0.8" opacity="0.4"/>
+    <circle cx="418" cy="110" r="6.5" fill="url(#jupG)"/>
+    <ellipse cx="418" cy="108" rx="6.5" ry="1.2" fill="none" stroke="#aa6633" stroke-width="1"   opacity="0.5"/>
+    <ellipse cx="418" cy="112" rx="6.5" ry="1.2" fill="none" stroke="#aa6633" stroke-width="0.8" opacity="0.4"/>
   </g>
   <g class="saturn">
-    <ellipse cx="436" cy="100" rx="14" ry="3.5" fill="none" stroke="#ccaa66" stroke-width="2"   opacity="0.7"/>
-    <circle  cx="436" cy="100" r="5.5" fill="#ddcc88"/>
-    <ellipse cx="436" cy="100" rx="14" ry="3.5" fill="none" stroke="#bbaa55" stroke-width="1"   opacity="0.4"/>
+    <ellipse cx="433" cy="110" rx="13" ry="3.2" fill="none" stroke="#ccaa66" stroke-width="2"   opacity="0.7"/>
+    <circle  cx="433" cy="110" r="5"   fill="#ddcc88"/>
+    <ellipse cx="433" cy="110" rx="13" ry="3.2" fill="none" stroke="#bbaa55" stroke-width="1"   opacity="0.4"/>
+  </g>
+  <g class="uranus">
+    <circle cx="447" cy="110" r="4.5" fill="url(#uranusG)"/>
+    <ellipse cx="447" cy="110" rx="2" ry="7" fill="none" stroke="#88dddd" stroke-width="1" opacity="0.5"/>
+  </g>
+  <g class="neptune">
+    <circle cx="460" cy="110" r="4.2" fill="url(#neptuneG)"/>
   </g>
 
-  <text x="20"  y="97" class="txt-a l1">Oi, eu sou</text>
-  <text x="510" y="97" class="txt-a r1">o Okarin.</text>
-  <text x="20"  y="97" class="txt-b l2">Building things</text>
-  <text x="510" y="97" class="txt-b r2">that matter.</text>
-  <text x="20"  y="97" class="txt-c l3">Back-end | Front-end</text>
-  <text x="510" y="97" class="txt-c r3">UI/UX Design</text>
+  <text x="20"  y="110" class="txt-a l1">Oi, eu sou</text>
+  <text x="510" y="110" class="txt-a r1">o Okarin.</text>
+  <text x="20"  y="110" class="txt-b l2">Building things</text>
+  <text x="510" y="110" class="txt-b r2">that matter.</text>
+  <text x="20"  y="110" class="txt-c l3">Back-end | Front-end</text>
+  <text x="510" y="110" class="txt-c r3">UI/UX Design</text>
 </svg>
