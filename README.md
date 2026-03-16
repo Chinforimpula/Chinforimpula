@@ -6,7 +6,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://giffiles.alphacoders.com/153/15367.gif" width="100%"/>
+  <img src="./lucio.gif" width="100%"/>
 </div>
 
 ---
@@ -74,7 +74,7 @@ Além de codar, curto muito pensar na **experiência do usuário** — cores, ti
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2FBE,100:00D9FF&height=100&section=footer" />
+  <img src="./lain.gif" width="100%"/>
   <br/>
   <sub>Made with 💙 and lots of ☕ by Okarin</sub>
 </div>
