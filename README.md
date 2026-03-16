@@ -71,7 +71,7 @@ Além de codar, curto muito pensar na **experiência do usuário** — cores, ti
 ---
 
 <div align="center">
-  <img src="./lain.gif" width="100%"/>
+  <img src="./lucio.gif" width="100%"/>
   <br/>
   <sub>Made with 💙 and lots of ☕ by Okarin</sub>
 </div>
