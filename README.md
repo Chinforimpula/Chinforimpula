@@ -57,8 +57,8 @@ Além de codar, curto muito pensar na **experiência do usuário** — cores, ti
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Okarin&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00D9FF&icon_color=7B2FBE&text_color=ffffff"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Okarin&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D9FF&text_color=ffffff"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Chinforimpula&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00D9FF&icon_color=7B2FBE&text_color=ffffff"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chinforimpula&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00D9FF&text_color=ffffff"/>
 </div>
 
 ---
