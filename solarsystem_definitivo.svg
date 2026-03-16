@@ -1,0 +1,160 @@
+<svg viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg" width="100%">
+  <style>
+    .star     { animation: twinkle var(--d,2s) ease-in-out infinite; }
+    .mercury  { animation: orbit 4s  linear infinite; transform-origin:340px 100px; }
+    .venus    { animation: orbit 7s  linear infinite; transform-origin:340px 100px; }
+    .earth    { animation: orbit 12s linear infinite; transform-origin:340px 100px; }
+    .mars     { animation: orbit 20s linear infinite; transform-origin:340px 100px; }
+    .jupiter  { animation: orbit 35s linear infinite; transform-origin:340px 100px; }
+    .saturn   { animation: orbit 55s linear infinite; transform-origin:340px 100px; }
+    .sun-glow { animation: pulse 3s ease-in-out infinite; }
+
+    .txt-a { font-family:'Courier New',monospace; fill:#00D9FF; font-size:12px; font-weight:bold; }
+    .txt-b { font-family:'Courier New',monospace; fill:#ffffff; font-size:11px; }
+    .txt-c { font-family:'Courier New',monospace; fill:#a855f7; font-size:11px; font-weight:bold; }
+
+    .l1 { animation: kl1 18s linear infinite; }
+    .r1 { animation: kr1 18s linear infinite; }
+    .l2 { animation: kl2 18s linear infinite; }
+    .r2 { animation: kr2 18s linear infinite; }
+    .l3 { animation: kl3 18s linear infinite; }
+    .r3 { animation: kr3 18s linear infinite; }
+
+    @keyframes kl1 {
+      0%     { opacity:1; clip-path:inset(0 100% 0 0); animation-timing-function:steps(10,end); }
+      5.5%   { clip-path:inset(0 0% 0 0); animation-timing-function:linear; }
+      12.2%  { opacity:1; }
+      16.7%  { opacity:0; clip-path:inset(0 0% 0 0); }
+      16.8%  { clip-path:inset(0 100% 0 0); }
+      100%   { opacity:0; }
+    }
+    @keyframes kr1 {
+      0%     { opacity:0; clip-path:inset(0 100% 0 0); }
+      16.7%  { opacity:1; clip-path:inset(0 100% 0 0); animation-timing-function:steps(9,end); }
+      22.2%  { clip-path:inset(0 0% 0 0); animation-timing-function:linear; }
+      28.9%  { opacity:1; }
+      33.3%  { opacity:0; clip-path:inset(0 0% 0 0); }
+      33.4%  { clip-path:inset(0 100% 0 0); }
+      100%   { opacity:0; }
+    }
+    @keyframes kl2 {
+      0%     { opacity:0; clip-path:inset(0 100% 0 0); }
+      33.3%  { opacity:1; clip-path:inset(0 100% 0 0); animation-timing-function:steps(15,end); }
+      38.8%  { clip-path:inset(0 0% 0 0); animation-timing-function:linear; }
+      45.5%  { opacity:1; }
+      50%    { opacity:0; clip-path:inset(0 0% 0 0); }
+      50.1%  { clip-path:inset(0 100% 0 0); }
+      100%   { opacity:0; }
+    }
+    @keyframes kr2 {
+      0%     { opacity:0; clip-path:inset(0 100% 0 0); }
+      50%    { opacity:1; clip-path:inset(0 100% 0 0); animation-timing-function:steps(12,end); }
+      55.5%  { clip-path:inset(0 0% 0 0); animation-timing-function:linear; }
+      62.2%  { opacity:1; }
+      66.7%  { opacity:0; clip-path:inset(0 0% 0 0); }
+      66.8%  { clip-path:inset(0 100% 0 0); }
+      100%   { opacity:0; }
+    }
+    @keyframes kl3 {
+      0%     { opacity:0; clip-path:inset(0 100% 0 0); }
+      66.7%  { opacity:1; clip-path:inset(0 100% 0 0); animation-timing-function:steps(20,end); }
+      72.2%  { clip-path:inset(0 0% 0 0); animation-timing-function:linear; }
+      78.9%  { opacity:1; }
+      83.3%  { opacity:0; clip-path:inset(0 0% 0 0); }
+      83.4%  { clip-path:inset(0 100% 0 0); }
+      100%   { opacity:0; }
+    }
+    @keyframes kr3 {
+      0%     { opacity:0; clip-path:inset(0 100% 0 0); }
+      83.3%  { opacity:1; clip-path:inset(0 100% 0 0); animation-timing-function:steps(12,end); }
+      88.8%  { clip-path:inset(0 0% 0 0); animation-timing-function:linear; }
+      95.5%  { opacity:1; }
+      100%   { opacity:0; clip-path:inset(0 0% 0 0); }
+    }
+
+    @keyframes orbit   { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+    @keyframes pulse   { 0%,100%{opacity:.4} 50%{opacity:.9} }
+    @keyframes twinkle { 0%,100%{opacity:.15} 50%{opacity:1} }
+  </style>
+
+  <defs>
+    <radialGradient id="sunG" cx="50%" cy="40%" r="60%">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="30%"  stop-color="#ffe566"/>
+      <stop offset="70%"  stop-color="#ff9900"/>
+      <stop offset="100%" stop-color="#ff4400"/>
+    </radialGradient>
+    <radialGradient id="earthG" cx="40%" cy="35%" r="60%">
+      <stop offset="0%"   stop-color="#88ddff"/>
+      <stop offset="50%"  stop-color="#2266cc"/>
+      <stop offset="100%" stop-color="#113388"/>
+    </radialGradient>
+    <radialGradient id="marsG" cx="40%" cy="35%" r="60%">
+      <stop offset="0%"   stop-color="#ffaa77"/>
+      <stop offset="60%"  stop-color="#cc4422"/>
+      <stop offset="100%" stop-color="#882211"/>
+    </radialGradient>
+    <radialGradient id="jupG" cx="40%" cy="35%" r="60%">
+      <stop offset="0%"   stop-color="#ffddbb"/>
+      <stop offset="50%"  stop-color="#cc8844"/>
+      <stop offset="100%" stop-color="#884422"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="680" height="200" fill="#000008"/>
+
+  <circle cx="40"  cy="18"  r="0.9" fill="white" class="star" style="--d:2.1s"/>
+  <circle cx="115" cy="48"  r="0.7" fill="white" class="star" style="--d:3.3s"/>
+  <circle cx="195" cy="14"  r="1.1" fill="white" class="star" style="--d:1.8s"/>
+  <circle cx="75"  cy="82"  r="0.8" fill="white" class="star" style="--d:2.7s"/>
+  <circle cx="160" cy="165" r="0.9" fill="white" class="star" style="--d:3.1s"/>
+  <circle cx="28"  cy="145" r="0.7" fill="white" class="star" style="--d:2.4s"/>
+  <circle cx="585" cy="22"  r="1.0" fill="white" class="star" style="--d:1.9s"/>
+  <circle cx="635" cy="75"  r="0.8" fill="white" class="star" style="--d:3.5s"/>
+  <circle cx="555" cy="155" r="0.9" fill="white" class="star" style="--d:2.2s"/>
+  <circle cx="608" cy="175" r="0.7" fill="white" class="star" style="--d:2.9s"/>
+  <circle cx="495" cy="28"  r="1.1" fill="white" class="star" style="--d:1.6s"/>
+  <circle cx="652" cy="118" r="0.7" fill="white" class="star" style="--d:1.7s"/>
+  <circle cx="14"  cy="58"  r="1.0" fill="white" class="star" style="--d:3.0s"/>
+  <circle cx="88"  cy="175" r="0.9" fill="white" class="star" style="--d:3.4s"/>
+  <circle cx="318" cy="8"   r="0.8" fill="white" class="star" style="--d:2.6s"/>
+  <circle cx="530" cy="10"  r="0.7" fill="white" class="star" style="--d:2.8s"/>
+
+  <circle cx="340" cy="100" r="22"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.2"/>
+  <circle cx="340" cy="100" r="34"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.2"/>
+  <circle cx="340" cy="100" r="48"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.2"/>
+  <circle cx="340" cy="100" r="63"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.2"/>
+  <circle cx="340" cy="100" r="80"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.15"/>
+  <circle cx="340" cy="100" r="96"  fill="none" stroke="#fff" stroke-width="0.3" opacity="0.1"/>
+
+  <circle cx="340" cy="100" r="18" fill="#ff6600" class="sun-glow" opacity="0.3"/>
+  <circle cx="340" cy="100" r="14" fill="#ff9900" class="sun-glow" opacity="0.5"/>
+  <circle cx="340" cy="100" r="12" fill="url(#sunG)"/>
+
+  <g class="mercury"><circle cx="362" cy="100" r="2.2" fill="#aaaaaa"/></g>
+  <g class="venus"  ><circle cx="374" cy="100" r="3.2" fill="#ffcc88"/></g>
+  <g class="earth"  >
+    <circle cx="388" cy="100" r="3.8" fill="url(#earthG)"/>
+    <g style="animation:orbit 1.5s linear infinite;transform-origin:388px 100px">
+      <circle cx="395" cy="100" r="1.2" fill="#cccccc"/>
+    </g>
+  </g>
+  <g class="mars"   ><circle cx="403" cy="100" r="2.8" fill="url(#marsG)"/></g>
+  <g class="jupiter">
+    <circle cx="420" cy="100" r="6.5" fill="url(#jupG)"/>
+    <ellipse cx="420" cy="98"  rx="6.5" ry="1.2" fill="none" stroke="#aa6633" stroke-width="1"   opacity="0.5"/>
+    <ellipse cx="420" cy="102" rx="6.5" ry="1.2" fill="none" stroke="#aa6633" stroke-width="0.8" opacity="0.4"/>
+  </g>
+  <g class="saturn">
+    <ellipse cx="436" cy="100" rx="14" ry="3.5" fill="none" stroke="#ccaa66" stroke-width="2"   opacity="0.7"/>
+    <circle  cx="436" cy="100" r="5.5" fill="#ddcc88"/>
+    <ellipse cx="436" cy="100" rx="14" ry="3.5" fill="none" stroke="#bbaa55" stroke-width="1"   opacity="0.4"/>
+  </g>
+
+  <text x="20"  y="97" class="txt-a l1">Oi, eu sou</text>
+  <text x="510" y="97" class="txt-a r1">o Okarin.</text>
+  <text x="20"  y="97" class="txt-b l2">Building things</text>
+  <text x="510" y="97" class="txt-b r2">that matter.</text>
+  <text x="20"  y="97" class="txt-c l3">Back-end | Front-end</text>
+  <text x="510" y="97" class="txt-c r3">UI/UX Design</text>
+</svg>
