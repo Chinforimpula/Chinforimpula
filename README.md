@@ -6,7 +6,7 @@
 <br/>
 
 <div align="center">
-  <img src=![header](https://giffiles.alphacoders.com/153/15367.gif)) />
+  <img src="https://giffiles.alphacoders.com/153/15367.gif" width="100%"/>
 </div>
 
 ---
