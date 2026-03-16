@@ -12,7 +12,8 @@
 ```python
 class Okarin:
     def __init__(self):
-        self.nome       = "Okarin"
+        self.nome       = "Matheus dos Santos Tenório"
+        self.nickname   = "Okarin"
         self.foco       = ["Back-end", "Front-end", "UI/UX Design"]
         self.linguagens = ["Python", "Java", "JavaScript", "HTML", "CSS"]
         self.estado     = "Sempre aprendendo 🚀"
