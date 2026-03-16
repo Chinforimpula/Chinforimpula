@@ -6,7 +6,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:7B2FBE&height=120&section=header&text=&animation=fadeIn" />
+  <img src=![header](https://giffiles.alphacoders.com/153/15367.gif)) />
 </div>
 
 ---
