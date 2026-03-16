@@ -10,7 +10,7 @@
 ## `> whoami`
 
 ```python
-class Okarin:
+class Biografia:
     def __init__(self):
         self.nome       = "Matheus dos Santos Tenório"
         self.nickname   = "Okarin"
