@@ -67,7 +67,7 @@ Além de codar, curto muito pensar na **experiência do usuário** — cores, ti
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)]((https://www.linkedin.com/in/matheus-dos-santos-ten%C3%B3rio-2a2853235/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/matheus-dos-santos-ten%C3%B3rio-2a2853235/)
 
 </div>
 
