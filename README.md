@@ -6,7 +6,7 @@
 <br/>
 
 <div align="center">
-  <img src="./lucio.gif" width="100%"/>
+  <img src="./luciov1.gif" width="100%"/>
 </div>
 
 ---
