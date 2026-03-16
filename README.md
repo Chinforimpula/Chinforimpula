@@ -67,9 +67,7 @@ Além de codar, curto muito pensar na **experiência do usuário** — cores, ti
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/Okarin)
-[![Instagram](https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://instagram.com/Okarin)
-[![Gmail](https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:seuemail@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)]((https://www.linkedin.com/in/matheus-dos-santos-ten%C3%B3rio-2a2853235/))
 
 </div>
 
