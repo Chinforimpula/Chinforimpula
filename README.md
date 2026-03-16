@@ -1,6 +1,6 @@
 <!-- Typing SVG -->
 <div align="center">
-  <img src="./solarsystem_todosplanetas.svg" width="100%"/>
+  <img src="./solar_matheus_final.svg" width="100%"/>
 </div>
 
 <br/>
