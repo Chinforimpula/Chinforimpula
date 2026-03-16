@@ -1,13 +1,9 @@
 <!-- Typing SVG -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Oi%2C+eu+sou+o+Okarin+%F0%9F%91%BE;Back-end+%7C+Front-end+%7C+UI%2FUX;Building+things+that+matter." alt="Typing SVG" />
+  <img src="./solarsystem_final.svg" width="100%"/>
 </div>
 
 <br/>
-
-<div align="center">
-  <img src="./solarsystem.svg" width="100%"/>
-</div>
 
 ---
 
